@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-4b37-f35b-a4ed-3464" name="WorldWarApocalypse" battleScribeVersion="2.03" revision="1" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-4b37-f35b-a4ed-3464" name="WorldWarApocalypse" battleScribeVersion="2.03" revision="2" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Grant Miller" authorContact="worldwarapocalypsegame@gmail.com" authorUrl="https://sites.google.com/view/apocalypse-games/home">
   <categoryEntries>
     <categoryEntry name="Commander" id="6cfe-7a68-a5ab-6613"/>
     <categoryEntry name="Operative" id="2be5-b2f8-c16e-524c" hidden="false"/>
@@ -1476,4 +1476,7 @@
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <publications>
+    <publication name="GitHub" id="15f7-9b4d-05e7-3824" hidden="false" publisherUrl="https://github.com/WWAGame/WWA.git"/>
+  </publications>
 </gameSystem>

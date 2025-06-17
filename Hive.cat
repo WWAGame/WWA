@@ -54,15 +54,15 @@
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition type="atLeast" value="1" field="selections" scope="d24d-cfa8-3efe-5672" childId="71b8-241a-c77b-0545" shared="true" includeChildSelections="true"/>
-                            <condition type="atLeast" value="1" field="selections" scope="d24d-cfa8-3efe-5672" childId="e12f-94ae-3137-c92f" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="d24d-cfa8-3efe-5672" childId="1feb-756a-1d4d-8f97" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="d24d-cfa8-3efe-5672" childId="aac3-fc2d-0fa9-29d3" shared="true" includeChildSelections="true"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
                     </modifier>
                     <modifier type="increment" value="1" field="eb49-4279-5eaf-9b07">
                       <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="d24d-cfa8-3efe-5672" childId="e12f-94ae-3137-c92f" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="d24d-cfa8-3efe-5672" childId="aac3-fc2d-0fa9-29d3" shared="true" includeChildSelections="true"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -460,6 +460,27 @@
               <attributes>
                 <attribute name="Unit Type" typeId="cfd0-b3dc-4d97-2b1b">Operative</attribute>
               </attributes>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="increment" value="1" field="f014-4925-24d2-0271">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="a714-61c4-90cc-abbe" childId="1feb-756a-1d4d-8f97" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="a714-61c4-90cc-abbe" childId="aac3-fc2d-0fa9-29d3" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="increment" value="1" field="eb49-4279-5eaf-9b07">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="a714-61c4-90cc-abbe" childId="aac3-fc2d-0fa9-29d3" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
             </profile>
           </profiles>
           <modifiers>
@@ -833,6 +854,27 @@
               <attributes>
                 <attribute name="Unit Type" typeId="cfd0-b3dc-4d97-2b1b">Team Leader</attribute>
               </attributes>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="increment" value="1" field="f014-4925-24d2-0271">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="a714-61c4-90cc-abbe" childId="1feb-756a-1d4d-8f97" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="a714-61c4-90cc-abbe" childId="aac3-fc2d-0fa9-29d3" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="increment" value="1" field="eb49-4279-5eaf-9b07">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="a714-61c4-90cc-abbe" childId="aac3-fc2d-0fa9-29d3" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
             </profile>
           </profiles>
           <categoryLinks>
@@ -1230,6 +1272,27 @@
               <attributes>
                 <attribute name="Unit Type" typeId="cfd0-b3dc-4d97-2b1b">Operative</attribute>
               </attributes>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="increment" value="1" field="f014-4925-24d2-0271">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="907a-7ec9-61f4-e750" childId="1feb-756a-1d4d-8f97" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="907a-7ec9-61f4-e750" childId="aac3-fc2d-0fa9-29d3" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="increment" value="1" field="eb49-4279-5eaf-9b07">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="907a-7ec9-61f4-e750" childId="aac3-fc2d-0fa9-29d3" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
             </profile>
           </profiles>
           <modifiers>
@@ -1616,6 +1679,27 @@
               <attributes>
                 <attribute name="Unit Type" typeId="cfd0-b3dc-4d97-2b1b">Team Leader</attribute>
               </attributes>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="increment" value="1" field="f014-4925-24d2-0271">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="907a-7ec9-61f4-e750" childId="1feb-756a-1d4d-8f97" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="907a-7ec9-61f4-e750" childId="aac3-fc2d-0fa9-29d3" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="increment" value="1" field="eb49-4279-5eaf-9b07">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="907a-7ec9-61f4-e750" childId="aac3-fc2d-0fa9-29d3" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
             </profile>
           </profiles>
           <categoryLinks>
@@ -2026,6 +2110,27 @@
               <attributes>
                 <attribute name="Unit Type" typeId="cfd0-b3dc-4d97-2b1b">Fireteam</attribute>
               </attributes>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="increment" value="1" field="f014-4925-24d2-0271">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="5278-559b-2460-1347" childId="1feb-756a-1d4d-8f97" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="5278-559b-2460-1347" childId="aac3-fc2d-0fa9-29d3" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="increment" value="1" field="eb49-4279-5eaf-9b07">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="5278-559b-2460-1347" childId="aac3-fc2d-0fa9-29d3" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
             </profile>
           </profiles>
           <modifiers>
@@ -2399,6 +2504,27 @@
               <attributes>
                 <attribute name="Unit Type" typeId="cfd0-b3dc-4d97-2b1b">Team Leader</attribute>
               </attributes>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="increment" value="1" field="f014-4925-24d2-0271">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="5278-559b-2460-1347" childId="1feb-756a-1d4d-8f97" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="5278-559b-2460-1347" childId="aac3-fc2d-0fa9-29d3" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="increment" value="1" field="eb49-4279-5eaf-9b07">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="5278-559b-2460-1347" childId="aac3-fc2d-0fa9-29d3" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
             </profile>
           </profiles>
           <categoryLinks>
@@ -2791,6 +2917,27 @@
               <attributes>
                 <attribute name="Unit Type" typeId="cfd0-b3dc-4d97-2b1b">Fireteam</attribute>
               </attributes>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="increment" value="1" field="f014-4925-24d2-0271">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="b500-25c6-5b1c-6d20" childId="1feb-756a-1d4d-8f97" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="b500-25c6-5b1c-6d20" childId="aac3-fc2d-0fa9-29d3" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="increment" value="1" field="eb49-4279-5eaf-9b07">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="b500-25c6-5b1c-6d20" childId="aac3-fc2d-0fa9-29d3" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
             </profile>
           </profiles>
           <modifiers>
@@ -2994,6 +3141,27 @@
               <attributes>
                 <attribute name="Unit Type" typeId="cfd0-b3dc-4d97-2b1b">Team Leader</attribute>
               </attributes>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="increment" value="1" field="f014-4925-24d2-0271">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="b500-25c6-5b1c-6d20" childId="1feb-756a-1d4d-8f97" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="b500-25c6-5b1c-6d20" childId="aac3-fc2d-0fa9-29d3" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="increment" value="1" field="eb49-4279-5eaf-9b07">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="b500-25c6-5b1c-6d20" childId="aac3-fc2d-0fa9-29d3" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
             </profile>
           </profiles>
           <categoryLinks>
@@ -3191,6 +3359,27 @@
               <attributes>
                 <attribute name="Unit Type" typeId="cfd0-b3dc-4d97-2b1b">Fireteam</attribute>
               </attributes>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="increment" value="1" field="f014-4925-24d2-0271">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="b500-25c6-5b1c-6d20" childId="1feb-756a-1d4d-8f97" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="b500-25c6-5b1c-6d20" childId="aac3-fc2d-0fa9-29d3" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="increment" value="1" field="eb49-4279-5eaf-9b07">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="b500-25c6-5b1c-6d20" childId="aac3-fc2d-0fa9-29d3" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
             </profile>
           </profiles>
           <categoryLinks>
@@ -3425,6 +3614,27 @@
               <attributes>
                 <attribute name="Unit Type" typeId="cfd0-b3dc-4d97-2b1b">Fireteam</attribute>
               </attributes>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="increment" value="1" field="f014-4925-24d2-0271">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="25c9-d848-87c4-9ea1" childId="1feb-756a-1d4d-8f97" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="25c9-d848-87c4-9ea1" childId="aac3-fc2d-0fa9-29d3" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="increment" value="1" field="eb49-4279-5eaf-9b07">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="25c9-d848-87c4-9ea1" childId="aac3-fc2d-0fa9-29d3" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
             </profile>
           </profiles>
           <modifiers>
@@ -3810,6 +4020,27 @@
               <attributes>
                 <attribute name="Unit Type" typeId="cfd0-b3dc-4d97-2b1b">Team Leader</attribute>
               </attributes>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="increment" value="1" field="f014-4925-24d2-0271">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="25c9-d848-87c4-9ea1" childId="1feb-756a-1d4d-8f97" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="25c9-d848-87c4-9ea1" childId="aac3-fc2d-0fa9-29d3" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="increment" value="1" field="eb49-4279-5eaf-9b07">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="25c9-d848-87c4-9ea1" childId="aac3-fc2d-0fa9-29d3" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
             </profile>
           </profiles>
           <categoryLinks>
