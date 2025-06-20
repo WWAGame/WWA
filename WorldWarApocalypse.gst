@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-4b37-f35b-a4ed-3464" name="World War Apocalypse" battleScribeVersion="2.03" revision="3" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Grant Miller" authorContact="worldwarapocalypsegame@gmail.com" authorUrl="https://sites.google.com/view/apocalypse-games/home">
+<gameSystem id="sys-4b37-f35b-a4ed-3464" name="World War Apocalypse" battleScribeVersion="2.03" revision="4" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Grant Miller" authorContact="worldwarapocalypsegame@gmail.com" authorUrl="https://sites.google.com/view/apocalypse-games/home">
   <categoryEntries>
     <categoryEntry name="Commander" id="6cfe-7a68-a5ab-6613"/>
     <categoryEntry name="Operative" id="2be5-b2f8-c16e-524c" hidden="false"/>
@@ -292,7 +292,7 @@
           <profiles>
             <profile name="Camouflage" typeId="5827-1929-d062-6699" typeName="Equipment" hidden="false" id="2ac0-d88b-edbd-3429">
               <characteristics>
-                <characteristic name="Effect" typeId="8c65-b44b-8e12-b7a0">Each model in this unit has Impenetrable 5.</characteristic>
+                <characteristic name="Effect" typeId="8c65-b44b-8e12-b7a0">Each model in this unit has Impenetrable 4.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -545,7 +545,7 @@
           <profiles>
             <profile name="Natural Camouflage" typeId="5827-1929-d062-6699" typeName="Equipment" hidden="false" id="113a-d5ec-e08e-0b86">
               <characteristics>
-                <characteristic name="Effect" typeId="8c65-b44b-8e12-b7a0">Each model in this unit has Impenetrable 5.</characteristic>
+                <characteristic name="Effect" typeId="8c65-b44b-8e12-b7a0">Each model in this unit has Impenetrable 4.</characteristic>
               </characteristics>
             </profile>
           </profiles>
