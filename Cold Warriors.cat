@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="967b-8502-3b50-22c1" name="Cold Warriors" gameSystemId="sys-4b37-f35b-a4ed-3464" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="967b-8502-3b50-22c1" name="Cold Warriors" gameSystemId="sys-4b37-f35b-a4ed-3464" gameSystemRevision="1" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Coordinated Fire" hidden="false" id="d120-8e57-1ac2-a1eb" sortIndex="1">
       <categoryLinks>
@@ -6206,7 +6206,7 @@
                 <attribute name="Unit Type" typeId="cfd0-b3dc-4d97-2b1b">Armored Vehicle</attribute>
               </attributes>
               <modifiers>
-                <modifier type="set" value="28&quot;" field="8bd1-f894-4e13-1022">
+                <modifier type="set" value="24&quot;" field="8bd1-f894-4e13-1022">
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="d878-408c-b2c4-3dd4" childId="fceb-ebed-ada3-8d0e" shared="true" includeChildSelections="true"/>
                   </conditions>
@@ -6878,7 +6878,7 @@
                   <profiles>
                     <profile name="Speed and Health Upgrade" typeId="5827-1929-d062-6699" typeName="Equipment" hidden="false" id="79b8-aaff-8f0f-a94d">
                       <characteristics>
-                        <characteristic name="Effect" typeId="8c65-b44b-8e12-b7a0">Speed increases to 28&quot; and Health increases by 1.</characteristic>
+                        <characteristic name="Effect" typeId="8c65-b44b-8e12-b7a0">Speed increases to 24&quot; and Health increases by 1.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6917,7 +6917,7 @@
                 <attribute name="Unit Type" typeId="cfd0-b3dc-4d97-2b1b">Armored Vehicle</attribute>
               </attributes>
               <modifiers>
-                <modifier type="set" value="28&quot;" field="8bd1-f894-4e13-1022">
+                <modifier type="set" value="24&quot;" field="8bd1-f894-4e13-1022">
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="3f4e-dd13-a6fd-9e16" childId="51e8-0594-30de-f3a1" shared="true" includeChildSelections="true"/>
                   </conditions>
@@ -7388,7 +7388,7 @@
                   <profiles>
                     <profile name="Speed and Health Upgrade" typeId="5827-1929-d062-6699" typeName="Equipment" hidden="false" id="97fa-9763-83d2-cf3c">
                       <characteristics>
-                        <characteristic name="Effect" typeId="8c65-b44b-8e12-b7a0">Speed increases to 28&quot; and Health increases by 1.</characteristic>
+                        <characteristic name="Effect" typeId="8c65-b44b-8e12-b7a0">Speed increases to 24&quot; and Health increases by 1.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
