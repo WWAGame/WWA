@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="55bf-2b83-a0a2-f826" name="Accursed" gameSystemId="sys-4b37-f35b-a4ed-3464" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="55bf-2b83-a0a2-f826" name="Accursed" gameSystemId="sys-4b37-f35b-a4ed-3464" gameSystemRevision="1" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Army of the Dead" hidden="false" id="4bd4-4235-6b73-5cb8" sortIndex="1">
       <categoryLinks>
